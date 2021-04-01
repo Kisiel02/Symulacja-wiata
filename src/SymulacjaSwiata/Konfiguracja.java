@@ -1,0 +1,65 @@
+package SymulacjaSwiata;
+
+import java.awt.*;
+
+public final class Konfiguracja {
+    public static final String plikZapisu = "zapis.txt";
+    public static final int rozmiarX = 20;
+    public static final int rozmiarY = 20;
+    public static final int wielkoscKomentarza = 120;
+    public static final int resetRuchu = 0;
+    public static final int inicjatywaRoslin = 0;
+    public static final int ileTurBezRozmnazania = 5;
+    public static final int iloscProbRozmnozenMlecza = 3;
+    public static final int czasTrwaniaMocySpecjalnej = 5;
+    public static final Color kolorOwcy = Color.CYAN;
+    public static final Color kolorCyberOwcy = Color.DARK_GRAY;
+    public static final Color kolorWilka = Color.RED;
+    public static final Color kolorZolwia = Color.GREEN;
+    public static final Color kolorAntylopy = Color.GRAY;
+    public static final Color kolorLisa = Color.ORANGE;
+    public static final Color kolorCzlowieka = Color.BLUE;
+    public static final Color kolorTrawy = new Color(204, 255, 51);
+    public static final Color kolorMlecza = Color.YELLOW;
+    public static final Color kolorGuarany = Color.PINK;
+    public static final Color kolorWilczychJagod = Color.BLACK;
+    public static final Color kolorBarszczuSosnowskiego = Color.MAGENTA;
+    public static final int silaOwcy = 4;
+    public static final int silaCyberOwcy = 11;
+    public static final int silaWilka = 9;
+    public static final int silaZolwia = 2;
+    public static final int silaAntylopy = 4;
+    public static final int silaLisa = 3;
+    public static final int silaCzlowieka = 5;
+    public static final int silaTrawy = 0;
+    public static final int silaMlecza = 0;
+    public static final int silaGuarany = 0;
+    public static final int silaWilczychJagod = 99;
+    public static final int silaBarszczuSosnowskiego = 10;
+    public static final int inicjatywaOwcy = 4;
+    public static final int inicjatywaCyberOwcy = 4;
+    public static final int inicjatywaWilka = 5;
+    public static final int inicjatywaZolwia = 1;
+    public static final int inicjatywaAntylopy = 4;
+    public static final int inicjatywaLisa = 7;
+    public static final int inicjatywaCzlowieka = 4;
+    public static final char znakOwcy = 'O';
+    public static final char znakCyberOwcy = 'C';
+    public static final char znakWilka = 'W';
+    public static final char znakZolwia = 'Z';
+    public static final char znakAntylopy = 'A';
+    public static final char znakLisa = 'L';
+    public static final char znakCzlowieka = 'H';
+    public static final char znakTrawy = 'T';
+    public static final char znakMlecza = 'M';
+    public static final char znakGuarany = 'G';
+    public static final char znakWilczychJagod = 'J';
+    public static final char znakBarszczuSosnowskiego = 'B';
+    public static final double szansaRozmnozeniaTrawy = 0.07;
+    public static final double szansaRozmnozeniaMlecza = 0.04;
+    public static final double szansaRozmnozeniaGuarany = 0.07;
+    public static final double szansaRozmnozeniaWilczychJagod = 0.07;
+    public static final double szansaRozmnozeniaBarszczuSosnowskiego = 0.05;
+    public static final String[] wybor = {"Antylopa", "BarszczSosnowskiego", "CyberOwca",
+            "Guarana", "Lis", "Mlecz", "Owca", "Trawa", "WilczeJagody", "Wilk", "Zolw"};
+}
